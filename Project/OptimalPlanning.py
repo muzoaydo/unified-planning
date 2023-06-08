@@ -17,7 +17,7 @@ c = InstantaneousAction("c")
 c.add_precondition(y)
 c.add_effect(x, True)
 
-problem = Problem("simple_with_costs")
+problem = SchedulingProblem("simple_with_costs")
 
 problem.add_fluent(x)
 problem.add_fluent(y)
