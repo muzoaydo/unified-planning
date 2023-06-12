@@ -62,8 +62,8 @@ def main(domainPath, problemPath):
     # enhspSolve(prob)
 
 if __name__ == '__main__':
-    domainPath = 'C:/Users/muzo1/Desktop/UPF/unified-planning/Project/PDDLs/domain1.pddl'
-    problemPath = 'C:/Users/muzo1/Desktop/UPF/unified-planning/Project/PDDLs/problem1.pddl'
+    domainPath = '/home/user/Desktop/unified-planning/Project/PDDLs/domain1.pddl'
+    problemPath = '/home/user/Desktop/unified-planning/Project/PDDLs/problem1.pddl'
     main(domainPath, problemPath)
 
 
